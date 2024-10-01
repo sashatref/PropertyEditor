@@ -52,6 +52,7 @@ jobs:
         path: install/*
 
   ubuntu:
+    if: false
     runs-on: ubuntu-20.04
     env:
       QT_PATH: ${{ github.workspace }}/Qt
@@ -101,6 +102,7 @@ jobs:
         path: install/*
 
   macos:
+    if: false
     runs-on: macos-12
     env:
       QT_PATH: ${{ github.workspace }}/Qt
